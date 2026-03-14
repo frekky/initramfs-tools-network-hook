@@ -15,7 +15,7 @@ esac
 
 . /scripts/functions
 . /conf/initramfs.conf
-. /conf/conf.d/*.conf
+[ -e /conf/conf.d/*.conf ] && for f in /conf/conf.d/*.conf; do . "$f"; done
 
 if [ -z "$BOND" ]; then
     exit 0
