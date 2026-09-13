@@ -1,7 +1,8 @@
 # initramfs-tools-network-hook
 
-**Because I'm not using this hook by myself I'm not able to maintain this repository anymore. Please fork this repository and continue working on it.** 
-If there are new maintainers notify me and I can add a link and archive this repository.
+Tested working with Debian 13 Trixie as of September 2026.
+
+Forked from https://github.com/stcz/initramfs-tools-network-hook, which is no longer being maintained, all credits go to respective authors and contributors.
 
 With this initramfs scripts it is possible to add a bond or vlan device to your initramfs, for example to unlock your encrypted disks via SSH (Dropbear) over a vlan or bond interface.
 
